@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Record"
+        />
+
+    <ListView
+        android:id="@+id/listView_record"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1" >
+    </ListView>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_edrecords"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Edit My Record"
+        android:background="@drawable/buttom"
+        android:textColor="#ffffff"
+         android:textSize="20dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+         android:textStyle="bold"
+         />
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@drawable/buttom"
+        android:textColor="#ffffff"
+         android:textSize="20dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+         android:textStyle="bold"
+         />
+
+    </LinearLayout>
+    
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:uiOptions="splitActionBarWhenNarrow">
+        <activity
+            android:name="com.example.emr.Page_firstscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Activity_register_general"></activity>
+        <activity android:name="Page_setlog"></activity>
+        <activity android:name="MainActivity" android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity android:name="Menu_menu"></activity>
+        <activity android:name="Menu_baseactivity" android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity android:name="Function_general"></activity>
+        <activity android:name="Activity_register_setting"></activity>
+        <activity android:name="Function_certificate"></activity>
+        <activity android:name="Function_communication"></activity>
+        <activity android:name="Function_records"></activity>
+        <activity android:name="Function_setting"></activity>
+        <activity android:name="logoff_success"></activity>
+        <activity android:name = "Activity_Homepage"></activity>
+        <activity android:name = "Activity_Login_passwordchange"></activity>
+        <activity android:name = "Activity_Login_recordsedit"></activity>
+        <activity android:name = "Activity_Login_recordshow"></activity>
+        <activity android:name = "Activity_register_first"></activity>
+        <activity android:name = "Logoff"></activity>
+        <activity android:name = "EditRecord_list"></activity>
+        <activity android:name ="com.example.test_bluetooth.BluetoothChatService"></activity>
+        <activity android:name = "com.example.test_bluetooth.DeviceListActivity"></activity>
+        <activity android:name ="com.example.test_bluetooth.BluetoothActivity"></activity>
+        
+        
+        <activity android:name="Activity_register_medical_main"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" />
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+    <item android:id="@+id/logoff"
+        android:title="Logoff"
+        android:orderInCategory="2"
+        android:showAsAction="always" />
+    <item android:id="@+id/edit"
+        android:title="Edit"
+
+        android:orderInCategory="3"
+        android:showAsAction="always" />
+    <item android:id="@+id/save"
+        android:title="Save"
+        android:orderInCategory="4"
+        android:showAsAction="always" />
+        
+    
+
+</menu>

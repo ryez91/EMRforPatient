@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_commun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttom"
+        android:text="Share My Record"
+        
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_change_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_commun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Change My Password"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttom" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_commun"
+        android:layout_alignLeft="@+id/btn_commun"
+        android:background="@drawable/buttom"
+        android:text="Check my Record"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
